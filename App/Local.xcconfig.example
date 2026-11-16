@@ -1,0 +1,5 @@
+// Copy to App/Local.xcconfig (gitignored) and fill in your values.
+// Your Team ID is shown at developer.apple.com → Membership.
+
+DEVELOPMENT_TEAM = ABCDE12345
+PRODUCT_BUNDLE_IDENTIFIER = com.yourname.AttestationDemo

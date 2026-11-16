@@ -1,0 +1,10 @@
+// Signing settings for the AttestationDemo target.
+//
+// The committed values are placeholders. Put your own in App/Local.xcconfig (not committed):
+//   cp App/Local.xcconfig.example App/Local.xcconfig
+// The server's APP_ID must then be $(DEVELOPMENT_TEAM).$(PRODUCT_BUNDLE_IDENTIFIER).
+
+DEVELOPMENT_TEAM =
+PRODUCT_BUNDLE_IDENTIFIER = com.example.AttestationDemo
+
+#include? "Local.xcconfig"

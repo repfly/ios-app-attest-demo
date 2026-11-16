@@ -1,0 +1,17 @@
+# SwiftPM
+Server/.build/
+Server/.swiftpm/
+.build/
+
+# Xcode
+App/Local.xcconfig
+DerivedData/
+xcuserdata/
+*.xcuserstate
+App/AttestationDemo.xcodeproj/project.xcworkspace/xcuserdata/
+
+# Downloaded trust anchor (fetch it yourself, see README)
+Server/Apple_App_Attestation_Root_CA.pem
+
+# macOS
+.DS_Store
